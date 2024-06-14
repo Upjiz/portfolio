@@ -248,3 +248,8 @@ export default function Hero() {
     </>
   );
 }
+
+console.log(
+  "%cCodé avec amour par UpizWeb",
+  "font-size:20px;color:#ff0000;background-color:black;display:inline-block;padding:5px 10px; border-radius:50px; border:2px solid #ff0000;"
+);

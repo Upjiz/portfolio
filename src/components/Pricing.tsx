@@ -14,7 +14,7 @@ const Pricing = () => {
           </h1>
         </div>
 
-        <div className="grid max-w-7xl grid-cols-1 gap-6 mx-auto md:grid-cols-3 mt-14 md:gap-9">
+        <div className="grid max-w-7xl grid-cols-1 gap-6 mx-auto lg:grid-cols-3 mt-14 md:gap-9">
           {/* Debut Card 1 */}
           <div className="overflow-hidden bg-white border-2 border-transparent rounded-md">
             <div className="p-6 md:py-8 md:px-9">
