@@ -11,7 +11,7 @@ const DuoSection = () => {
       <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
         Un projet en plusieurs étapes
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-screen-xl mx-auto px-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-6 max-w-screen-xl mx-auto px-5">
         <div className="col-span-1">
           <Timeline />
         </div>

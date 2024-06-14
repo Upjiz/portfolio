@@ -6,7 +6,7 @@ import { RaycastMagicLinkEmail } from "../emails/MagicLink";
 import { resend } from "@/lib/resend";
 const ContactForm = () => {
   return (
-    <div>
+    <div id="contact">
       <section className="text-gray-700 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">

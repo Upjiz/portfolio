@@ -245,7 +245,7 @@ const Pricing = () => {
                   </svg>
                   <span className="text-base font-medium text-gray-900">
                     {" "}
-                    Intégration paiment sécurisé{" "}
+                    Intégration paiement sécurisé{" "}
                   </span>
                 </li>
 

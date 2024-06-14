@@ -83,13 +83,13 @@ const services = [
     id: 6,
     title: "Email marketing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt culpa autem",
+      "Boostez vos ventes et engagez votre audience avec notre service de mail marketing automatisé.",
     icon: "mail",
   },
 ];
 const Services = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 mb-6">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col items-start gap-10 xl:gap-14">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
@@ -103,7 +103,7 @@ const Services = () => {
             vos besoins en ligne, de la création à la maintenance de votre site.
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-6">
           {services.map((service) => (
             <ServiceCard key={service.id} {...service} />
           ))}

@@ -54,7 +54,7 @@ const Navbar = () => {
           </ul>
           <div className="flex flex-col sm:flex-row sm:items-center gap-4  lg:min-w-max mt-10 lg:mt-0">
             <Link
-              href="#"
+              href="#contact"
               className="flex items-center justify-center w-full sm:w-auto h-12 px-6 rounded-full bg-gray-100 dark:bg-gray-900 text-[#4F46E5] dark:text-gray-300 border border-gray-200 dark:border-gray-800"
             >
               Contact
@@ -121,13 +121,13 @@ export default function Hero() {
           </p>
           <div className="flex justify-center items-center flex-wrap mx-auto gap-4">
             <Link
-              href="#"
-              className="flex items-center h-12 px-6 rounded-full bg-[#4F46E5] text-white border border-purple-600"
+              href="#contact"
+              className="flex items-center h-12 px-6 rounded-full mb-2 bg-[#4F46E5] text-white border border-purple-600"
             >
               Contactez moi 🚀
             </Link>
           </div>
-          <div className="text-left grid lg:grid-cols-3 p-6  rounded-2xl bg-gradient-to-tr from-gray-50 to-gray-200 dark:from-gray-900 dark:to-gray-800 border border-gray-100 dark:border-gray-800 max-w-2xl lg:max-w-5xl mx-auto lg:divide-x divide-y lg:divide-y-0 divide-gray-300 dark:divide-gray-800">
+          <div className="text-left grid lg:grid-cols-3 p-6 rounded-2xl bg-gradient-to-tr from-gray-50 to-gray-200 dark:from-gray-900 dark:to-gray-800 border border-gray-100 dark:border-gray-800 max-w-2xl lg:max-w-5xl mx-auto lg:divide-x divide-y lg:divide-y-0 divide-gray-300 dark:divide-gray-800">
             <div className="flex items-start gap-6 lg:pr-6 pb-6 lg:pb-0 ">
               <div className="w-10">
                 <span className="p-3 rounded-xl bg-gray-200 dark:bg-gray-800 flex w-max text-gray-800 dark:text-gray-200">
@@ -152,7 +152,7 @@ export default function Hero() {
                   30+
                 </h2>
                 <p className="text-gray-700 dark:text-gray-300 text-sm">
-                  Plus de 30 clients satisfait partout en France 🇫🇷
+                  Plus de 30 clients satisfaits partout en France 🇫🇷
                 </p>
               </div>
             </div>
@@ -176,10 +176,10 @@ export default function Hero() {
                 </span>
               </div>
               <div className="flex-1 space-y-1">
-                <h2 className="text-gray-900 dark:text-white font-semibold text-lg">
+                <h2 className="text-gray-900 dark:text-white mb-2 font-semibold text-lg">
                   Mes outils de travail
                 </h2>
-                <div className="text-sm font-normal mt-2 flex gap-3">
+                <div className="text-sm font-normal mt-2 flex gap-3 ">
                   <Image
                     src={"/Shopify.svg"}
                     alt="Shopify"
@@ -237,7 +237,7 @@ export default function Hero() {
                   Suivi personalisé
                 </h2>
                 <p className="text-gray-700 dark:text-gray-300 text-sm">
-                  Un suivis personalisé et une attention particuliere pour
+                  Un suivis personnalisé et une attention particulière pour
                   chacun de mes projets.
                 </p>
               </div>
