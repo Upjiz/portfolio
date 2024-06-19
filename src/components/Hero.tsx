@@ -37,7 +37,7 @@ const Navbar = () => {
           <ul className="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 dark:text-gray-300 lg:w-full lg:justify-center">
             <li>
               <Link
-                href="#"
+                href="https://instagram.com/upizweb"
                 className="px-2 transition-colors  py-2.5 hover:text-[#4F46E5] "
               >
                 <FaInstagram />
@@ -45,7 +45,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="https://thread.com/upizweb"
                 className="px-2 transition-colors  py-2.5 hover:text-[#4F46E5] "
               >
                 <FaSquareThreads />
