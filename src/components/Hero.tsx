@@ -16,7 +16,13 @@ const Navbar = () => {
         <div className="flex items-center min-w-max">
           <Link href="#" className="font-semibold flex items-center gap-x-2">
             <span className="text-lg text-gray-700 dark:text-gray-300">
-              <Image src="/logo.svg" alt="UpizWeb" width={100} height={30} />
+              <Image
+                className=""
+                src="/logo.png"
+                alt="UpizWeb"
+                width={100}
+                height={30}
+              />
             </span>
           </Link>
         </div>
