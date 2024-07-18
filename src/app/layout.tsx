@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { Inter, Raleway, Unbounded, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const raleway = Raleway({ subsets: ["latin"] });
-const unbounded = Unbounded({ subsets: ["latin"] });
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Upiz Web",
   description: "Créateur de site web",
+  icons: {
+    icon: ["/favicon.ico?v=2"],
+    apple: ["/apple-touch-icon.png"],
+    shortcut: ["/apple-touch-icon.png"],
+  },
 };
 
 export default function RootLayout({
@@ -19,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="\favicon.ico" />
+      </head>
       <body
         className={dm_sans.className}
         style={{ backgroundColor: "#F3F4F6" }}

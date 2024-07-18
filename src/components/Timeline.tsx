@@ -19,9 +19,6 @@ const Timeline = () => {
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
               Prise de contact
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
-                Latest
-              </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Si ce n&apos;est pas déjà fait, cliquez sur le bouton ci dessous

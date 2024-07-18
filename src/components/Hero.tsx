@@ -15,12 +15,8 @@ const Navbar = () => {
       <nav className="relative mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
         <div className="flex items-center min-w-max">
           <Link href="#" className="font-semibold flex items-center gap-x-2">
-            <div className="flex items-center -space-x-3">
-              <span className="h-6 aspect-square bg-[#4F46E5] dark:bg-purple-500 rounded-full flex" />
-              <span className="h-6 aspect-square bg-black dark:bg-violet-400 blur rounded-full flex" />
-            </div>
             <span className="text-lg text-gray-700 dark:text-gray-300">
-              Upiz Web
+              <Image src="/logo.svg" alt="UpizWeb" width={100} height={30} />
             </span>
           </Link>
         </div>
@@ -181,30 +177,35 @@ export default function Hero() {
                 </h2>
                 <div className="text-sm font-normal mt-2 flex gap-3 ">
                   <Image
+                    title="Shopify"
                     src={"/Shopify.svg"}
                     alt="Shopify"
                     width={25}
                     height={25}
                   ></Image>
                   <Image
+                    title="Wordpress"
                     src={"/Wordpress.svg"}
                     alt="Shopify"
                     width={25}
                     height={25}
                   ></Image>
                   <Image
+                    title="NextJS"
                     src={"/NextJS.svg"}
                     alt="Shopify"
                     width={25}
                     height={25}
                   ></Image>
                   <Image
+                    title="Notion"
                     src={"/Notion.svg"}
                     alt="Shopify"
                     width={25}
                     height={25}
                   ></Image>
                   <Image
+                    title="Tailwind"
                     src={"/Tailwindcss.svg"}
                     alt="Shopify"
                     width={25}

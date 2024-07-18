@@ -22,7 +22,7 @@ let notifications = [
   },
   {
     name: "Nouvelle demande de devis !",
-    description: "Magic UI",
+    description: "Vous avez reçu une nouvelle demande de devis !",
     time: "10m ago",
     icon: "👤",
     color: "#FFB800",
