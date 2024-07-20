@@ -89,16 +89,16 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section className="py-20 mb-6">
+    <section className="py-20  dark:bg-gray-950">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col items-start gap-10 xl:gap-14">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">
+          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-6">
             Mes Services Web
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
             Tout ce dont vous avez besoins.
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
             Découvrez une gamme complète de services web pour répondre à tous
             vos besoins en ligne, de la création à la maintenance de votre site.
           </p>

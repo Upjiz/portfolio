@@ -1,22 +1,21 @@
 import React from "react";
-import PricingCard from "@/components/ui/PricingCard";
 
 const Pricing = () => {
   return (
-    <section className="py-10 sm:py-16 lg:py-24">
+    <section className="py-10 sm:py-16 lg:py-24 dark:bg-gray-950">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-base font-semibold leading-7 text-center text-indigo-600">
             Tarifs
           </h2>
-          <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl dark:text-gray-300">
             Différentes offres selon vos projets
           </h1>
         </div>
 
         <div className="grid max-w-7xl grid-cols-1 gap-6 mx-auto lg:grid-cols-3 mt-14 md:gap-9">
           {/* Debut Card 1 */}
-          <div className="overflow-hidden bg-white border-2 border-transparent rounded-md">
+          <div className="overflow-hidden bg-white border-2 border-transparent rounded-md ">
             <div className="p-6 md:py-8 md:px-9">
               <h3 className="text-xl font-semibold text-black">
                 Site web vitrine

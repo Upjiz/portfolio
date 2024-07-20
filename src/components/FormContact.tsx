@@ -25,10 +25,13 @@ const FormContact = ({ onSubmit }: { onSubmit: SubmitHandler }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex flex-wrap -m-2">
+      <div className="flex flex-wrap -m-2 ">
         <div className="p-2 w-1/2">
           <div className="relative">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+            <label
+              htmlFor="name"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-300"
+            >
               Nom
             </label>
             <input
@@ -42,7 +45,10 @@ const FormContact = ({ onSubmit }: { onSubmit: SubmitHandler }) => {
         </div>
         <div className="p-2 w-1/2">
           <div className="relative">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+            <label
+              htmlFor="email"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-300"
+            >
               Email
             </label>
             <input
@@ -58,7 +64,7 @@ const FormContact = ({ onSubmit }: { onSubmit: SubmitHandler }) => {
           <div className="relative">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-600"
+              className="leading-7 text-sm text-gray-600 dark:text-gray-300"
             >
               Message
             </label>
