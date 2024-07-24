@@ -33,7 +33,7 @@ const Pricing = () => {
                     A partir de :{" "}
                   </span>
                   <p className=" ml-2 text-6xl font-medium tracking-tight">
-                    699
+                    499
                   </p>
                   <span className="text-xl font-medium text-black"> € </span>
                 </div>
@@ -180,7 +180,7 @@ const Pricing = () => {
                     A partir de :{" "}
                   </span>
                   <p className=" ml-2 text-6xl font-medium tracking-tight">
-                    1199
+                    799
                   </p>
                   <span className="text-xl font-medium text-black"> € </span>
                 </div>
@@ -326,7 +326,7 @@ const Pricing = () => {
                     A partir de :{" "}
                   </span>
                   <p className="text-6xl ml-2 font-medium tracking-tight">
-                    2399
+                    1499
                   </p>
                   <span className="text-xl font-medium text-black"> € </span>
                 </div>
