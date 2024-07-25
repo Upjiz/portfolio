@@ -5,9 +5,9 @@ import "./globals.css";
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Upiz Web",
+  title: "Upiz Web - Votre nouveau partenaire web",
   description:
-    "Agence web spécialisée dans la création de sites internet vitrine et e-commerce, Upizweb propose également des services de webmastering pour assurer la performance et la sécurité de votre site. Faites confiance à notre expertise pour une présence en ligne professionnelle.",
+    "Agence web spécialisée dans la création de sites internet vitrine et e-commerce - Service de webmastering",
   icons: {
     icon: ["/favicon.ico?v=2"],
     apple: ["/apple-touch-icon.png"],
