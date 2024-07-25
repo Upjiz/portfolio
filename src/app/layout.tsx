@@ -6,7 +6,8 @@ const dm_sans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Upiz Web",
-  description: "Créateur de site web",
+  description:
+    "Agence web spécialisée dans la création de sites internet vitrine et e-commerce, Upizweb propose également des services de webmastering pour assurer la performance et la sécurité de votre site. Faites confiance à notre expertise pour une présence en ligne professionnelle.",
   icons: {
     icon: ["/favicon.ico?v=2"],
     apple: ["/apple-touch-icon.png"],
@@ -20,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <link rel="icon" href="\favicon.ico" />
       </head>
