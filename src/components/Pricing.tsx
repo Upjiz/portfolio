@@ -8,9 +8,9 @@ const Pricing = () => {
           <h2 className="text-base font-semibold leading-7 text-center text-indigo-600">
             Tarifs
           </h2>
-          <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl dark:text-gray-300">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl dark:text-gray-300">
             Différentes offres selon vos projets
-          </h1>
+          </p>
         </div>
 
         <div className="grid max-w-7xl grid-cols-1 gap-6 mx-auto lg:grid-cols-3 mt-14 md:gap-9">
