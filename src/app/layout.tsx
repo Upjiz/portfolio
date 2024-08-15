@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Raleway, Unbounded, DM_Sans } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
@@ -23,6 +24,17 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-LCDSQD7SCN"
+        ></Script>
+        <Script id="google-analytics">
+          {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LCDSQD7SCN')`}
+        </Script>
         <link rel="icon" href="\favicon.ico" />
       </head>
       <body
